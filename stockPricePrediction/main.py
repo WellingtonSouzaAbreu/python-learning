@@ -9,12 +9,12 @@ def main():
     stockHistory.columns = ['ds', 'y'] # Rename respective columns
     
     prophetModel = prophet.Prophet()  # Instance prophet
-    prophetModel.fit(stockHistory)      # Fit the model
+    prophetModel.fit(stockHistory)    # Fit the model
 
     future = prophetModel.make_future_dataframe(periods=365)  # Generate future dataframe
     forecast = prophetModel.predict(future)     # Make forecastro from fit model
 
-    forecast = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail(500) # Get last occurances(traine + forecast)
+    forecast = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail(365) # Get last occurances(traine + forecast)
 
     # True data v
 
@@ -40,7 +40,7 @@ def main():
     plt.plot(currentForecast[['ds']], currentForecast[['yhat_lower']], label='valor mínimo(esperado)', color='purple')
 
     plt.xlabel('Data')
-    plt.ylabel('Valores Previstos')
+    plt.ylabel('Preço da ação')
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
