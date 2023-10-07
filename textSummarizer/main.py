@@ -1,7 +1,7 @@
 import src.files as files
 import src.text as text 
-# download('stopwords') on text.py
-# download('punkt') on text.py
+# download('stopwords') - text.py
+# download('punkt') - text.py
 
 # INPUT dirtText.txt
 # OUTPUT summarizedText.txt
