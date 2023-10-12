@@ -10,8 +10,6 @@ import colorama
 from colorama import Fore, Style, Back
 colorama.init()
 
-import src.text as text
-
 with open('./docs/intents.json') as file:
     fileData = json.load(file)
     intents = fileData['intents']
