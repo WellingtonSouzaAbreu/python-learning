@@ -55,16 +55,16 @@ def chatInit():
 
 
 def getTrainedModel():
-    model = keras.models.load_model('chat_model')
+    model = keras.models.load_model('./src/chat_model')
     return model
 
 def getTreinedLabelEncoder():
-    with open('label_encoder.pickle', 'rb') as handle:
+    with open('./src/label_encoder.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
         return tokenizer
 
 def getTrainedTokenizer():
-    with open('tokenizer.pickle', 'rb') as enc:
+    with open('./src/tokenizer.pickle', 'rb') as enc:
         tokenizer = pickle.load(enc)
         return tokenizer
 

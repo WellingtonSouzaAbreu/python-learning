@@ -1,6 +1,24 @@
 {
     "intents": [
         {
+            "tag": "horários",
+            "patterns": [
+                "17 horas",
+                "5",
+                "5:00",
+                "17:00",
+                "dezessete",
+                "dezessete horas",
+                "5h",
+                "5horas",
+                "17h",
+                "17horas"
+            ],
+            "responses": [
+                "Ok, você quer agendar para as 17:00 horas!"
+            ]
+        },
+        {
             "tag": "agendar_horario",
             "patterns": [
                 "Quero agendar um horário",
