@@ -1,163 +1,7 @@
 {
     "intents": [
         {
-            "tag": "horários",
-            "patterns": [
-                "17 horas",
-                "5",
-                "5:00",
-                "17:00",
-                "dezessete",
-                "dezessete horas",
-                "5h",
-                "5horas",
-                "17h",
-                "17horas"
-            ],
-            "responses": [
-                "Ok, você quer agendar para as 17:00 horas!"
-            ]
-        },
-        {
-            "tag": "agendar_horario",
-            "patterns": [
-                "Quero agendar um horário",
-                "Pode marcar um horário para mim?",
-                "Gostaria de reservar um horário",
-                "Tenho interesse em fazer um agendamento",
-                "Quais horários estão disponíveis?",
-                "Preciso de um horário para amanhã",
-                "Quando posso agendar um horário?",
-                "Quanto tempo leva para um corte de cabelo?",
-                "Quais são os horários de atendimento?",
-                "Você pode me encaixar na sua agenda?",
-                "Eu gostaria de marcar uma sessão de manicure",
-                "Estou disponível na sexta-feira para um agendamento",
-                "Qual é a disponibilidade para um corte de cabelo hoje?",
-                "Preciso de um horário para uma coloração de cabelo",
-                "Quais datas estão livres para agendamento?",
-                "Eu quero reservar um horário para uma massagem",
-                "Posso agendar uma depilação para a próxima semana?",
-                "Tenho um evento no sábado, você pode me preparar no mesmo dia?",
-                "Gostaria de um horário para um tratamento facial",
-                "Você tem horários disponíveis no domingo?",
-                "Marque um horário para um penteado especial",
-                "Estou interessado em agendar um horário para um corte e escova",
-                "Eu gostaria de um horário à tarde na quinta-feira",
-                "Quais serviços de salão você oferece?",
-                "Preciso de um horário no final de semana para uma manicure e pedicure",
-                "Agende um horário para uma sessão de maquiagem",
-                "Pode me encaixar para um corte de cabelo na segunda-feira?",
-                "Quero marcar uma hora para tratamento capilar",
-                "Quanto tempo leva uma sessão de massagem?",
-                "Qual é o preço de um corte de cabelo?",
-                "Estou interessado em agendar um horário para um corte masculino",
-                "Eu gostaria de agendar um horário para um penteado de noiva",
-                "Quero reservar um horário para um tratamento de unhas",
-                "Marque um horário para um alisamento de cabelo",
-                "Quais são os preços para tratamentos de beleza?",
-                "Preciso de um horário na parte da manhã na terça-feira",
-                "Você tem horários disponíveis para um tratamento de rejuvenescimento facial?",
-                "Posso agendar um horário para uma depilação a cera?",
-                "Gostaria de um horário para um penteado com cachos",
-                "Quanto tempo leva para uma sessão de pedicure?",
-                "Tenho um evento no próximo mês, você pode agendar um horário para preparação?",
-                "Agende um horário para uma limpeza de pele",
-                "Pode me encaixar para uma coloração de cabelo no mesmo dia?",
-                "Eu gostaria de marcar uma hora para um tratamento de relaxamento",
-                "Qual é o seu horário de funcionamento aos sábados?",
-                "Quero reservar um horário para um tratamento de spa",
-                "Posso agendar uma sessão de extensões de cílios para amanhã?",
-                "Gostaria de marcar um horário para um tratamento de bronzeamento",
-                "Estou interessado em agendar um horário para um corte de cabelo infantil",
-                "Quais são os horários disponíveis para hoje à noite?",
-                "Marque um horário para uma sessão de tratamento capilar profundo",
-                "Você tem horários disponíveis para serviços de manicure hoje?",
-                "Pode me encaixar para um tratamento de unhas acrílicas na próxima semana?",
-                "Quero agendar um horário para uma sessão de maquiagem artística",
-                "Qual é o tempo de espera para um penteado com tranças?",
-                "Preciso de um horário para uma sessão de massagem relaxante",
-                "Agende um horário para um penteado com extensões",
-                "Gostaria de marcar uma hora para uma sessão de tratamento de sobrancelha",
-                "Pode me encaixar para um penteado com cachos na sexta-feira?",
-                "Quais são os horários disponíveis para um tratamento de microdermoabrasão?",
-                "Eu quero reservar um horário para um tratamento de escalda-pés",
-                "Tenho interesse em agendar um horário para uma sessão de envoltório corporal",
-                "Posso agendar uma depilação para a próxima segunda-feira?",
-                "Qual é o preço de um tratamento facial rejuvenescedor?",
-                "Gostaria de um horário para um tratamento de unhas de gel",
-                "Quanto tempo leva uma sessão de tratamento de rejuvenescimento de mãos?",
-                "Quais são os preços para serviços de spa?",
-                "Eu gostaria de agendar um horário para uma sessão de depilação de rosto",
-                "Quero reservar um horário para um tratamento de cabelo danificado",
-                "Marque um horário para um penteado com trancinhas",
-                "Preciso de um horário na parte da manhã na próxima terça-feira",
-                "Você tem horários disponíveis para uma sessão de tratamento de cílios hoje?",
-                "Pode me encaixar para uma sessão de massagem sueca no mesmo dia?",
-                "Gostaria de marcar uma hora para um tratamento de relaxamento de pés",
-                "Estou interessado em agendar um horário para um tratamento de corpo inteiro",
-                "Quais são os horários disponíveis para tratamento de esfoliação facial hoje?",
-                "Agende um horário para um tratamento de sobrancelhas com tintura",
-                "Pode me encaixar para um penteado com ondas na quinta-feira?",
-                "Quais são os horários disponíveis para uma sessão de tratamento de pés e mãos?",
-                "Eu quero reservar um horário para um tratamento de drenagem linfática",
-                "Tenho interesse em agendar um horário para uma sessão de tratamento de olhos",
-                "Posso agendar um horário para um penteado com tranças no mesmo dia?",
-                "Quero reservar um horário para um tratamento de microdermoabrasão facial",
-                "Marque um horário para uma"
-            ],
-            "responses": [
-                "Claro, vou verificar nossa disponibilidade. Poderia me dizer sua preferência de data e horário?",
-                "Com certeza! Para quando você gostaria de agendar?",
-                "Estou feliz em ajudar. Você tem algum horário específico em mente?",
-                "Ótimo! Vamos encontrar o melhor horário para você. Quando você está disponível?",
-                "Certo, estou à disposição para agendar. Qual é a data que você prefere?",
-                "Com certeza, podemos marcar um horário. Por favor, me informe quando você está livre",
-                "Entendido. Vou verificar nossos horários disponíveis. Quando você gostaria de agendar?",
-                "Claro, podemos agendar um horário. Você tem algum horário específico em mente?",
-                "Terei prazer em ajudar você a agendar um horário. Qual é o serviço que você deseja agendar?",
-                "Sem problema. Podemos marcar um horário para você. Qual é a sua preferência de data e horário?",
-                "Com certeza, podemos encontrar um horário que funcione para você. Quando você gostaria de agendar?",
-                "Entendi, vou verificar nossos horários disponíveis. Qual é o melhor horário para você?",
-                "Estou à disposição para agendar um horário. Por favor, me informe suas preferências de data e horário",
-                "Claro, estou aqui para ajudar. Quando você gostaria de agendar?",
-                "Ótimo! Podemos marcar um horário para você. Por favor, me informe sua disponibilidade",
-                "Terei prazer em ajudar. Qual é o serviço que você deseja agendar e qual horário funciona para você?",
-                "Com certeza, vamos encontrar um horário adequado para você. Quando você está disponível?",
-                "Entendi. Vou verificar nossos horários disponíveis. Poderia me informar sua preferência de data?",
-                "Claro, estou à disposição para agendar um horário. Qual é a data que você prefere?",
-                "Sem problema, podemos marcar um horário. Por favor, me informe quando você está livre",
-                "Com certeza, podemos encontrar o melhor horário para você. Quando você gostaria de agendar?",
-                "Entendido. Vou verificar nossos horários disponíveis. Qual é o melhor horário para você?",
-                "Estou à disposição para agendar um horário. Por favor, me informe suas preferências de data e horário",
-                "Claro, estou aqui para ajudar. Quando você gostaria de agendar?",
-                "Ótimo! Podemos marcar um horário para você. Por favor, me informe sua disponibilidade",
-                "Terei prazer em ajudar. Qual é o serviço que você deseja agendar e qual horário funciona para você?",
-                "Com certeza, vamos encontrar um horário adequado para você. Quando você está disponível?",
-                "Entendi. Vou verificar nossos horários disponíveis. Poderia me informar sua preferência de data?",
-                "Claro, estou à disposição para agendar um horário. Qual é a data que você prefere?",
-                "Sem problema, podemos marcar um horário. Por favor, me informe quando você está livre",
-                "Com certeza, podemos encontrar o melhor horário para você. Quando você gostaria de agendar?",
-                "Entendido. Vou verificar nossos horários disponíveis. Qual é o melhor horário para você?",
-                "Estou à disposição para agendar um horário. Por favor, me informe suas preferências de data e horário",
-                "Claro, estou aqui para ajudar. Quando você gostaria de agendar?",
-                "Ótimo! Podemos marcar um horário para você. Por favor, me informe sua disponibilidade",
-                "Terei prazer em ajudar. Qual é o serviço que você deseja agendar e qual horário funciona para você?",
-                "Com certeza, vamos encontrar um horário adequado para você. Quando você está disponível?",
-                "Entendi. Vou verificar nossos horários disponíveis. Poderia me informar sua preferência de data?",
-                "Claro, estou à disposição para agendar um horário. Qual é a data que você prefere?",
-                "Sem problema, podemos marcar um horário. Por favor, me informe quando você está livre",
-                "Com certeza, podemos encontrar o melhor horário para você. Quando você gostaria de agendar?",
-                "Entendido. Vou verificar nossos horários disponíveis. Qual é o melhor horário para você?",
-                "Estou à disposição para agendar um horário. Por favor, me informe suas preferências de data e horário",
-                "Claro, estou aqui para ajudar. Quando você gostaria de agendar?",
-                "Ótimo! Podemos marcar um horário para você. Por favor, me informe sua disponibilidade",
-                "Terei prazer em ajudar. Qual é o serviço que você deseja agendar e qual horário funciona para você?",
-                "Com certeza, vamos encontrar um horário adequado para você. Quando você está disponível?"
-            ]
-        },
-        {
-            "tag": "saudação",
+            "tag": "greeting",
             "patterns": [
                 "Olá",
                 "Oi",
@@ -181,31 +25,613 @@
                 "Oi, posso ajudar?"
             ],
             "responses": [
-                "Olá!",
-                "Oi!",
-                "Hey!",
-                "Como vai?",
                 "Olá, como posso ajudar?",
                 "Olá, estou aqui para você",
                 "Olá, estou pronto para ajudar",
                 "Olá, como posso ser útil?",
                 "Oi, em que posso ajudar?",
                 "Como posso auxiliar você?",
-                "Oi, tudo bem por aí?",
                 "Oi, estou à disposição",
                 "Olá, fale comigo",
-                "Oi, estou pronto",
                 "Oi, o que precisa?",
                 "Oi, pode perguntar",
                 "Oi, estou disponível",
                 "Oi, estou aqui para ajudar",
-                "Oi, como posso auxiliar?",
-                "Oi, estou online",
-                "Claro, como posso ajudar?"
+                "Oi, como posso auxiliar?"
             ]
         },
         {
-            "tag": "despedida",
+            "tag": "setDay",
+            "patterns": [
+                "hoje",
+                "amanhã",
+                "1",
+                "01",
+                "primeiro",
+                "2",
+                "02",
+                "dois",
+                "3",
+                "03",
+                "três",
+                "4",
+                "04",
+                "quatro",
+                "5",
+                "05",
+                "cinco",
+                "6",
+                "06",
+                "seis",
+                "7",
+                "07",
+                "sete",
+                "8",
+                "08",
+                "oito",
+                "9",
+                "09",
+                "nove",
+                "10",
+                "dez",
+                "11",
+                "onze",
+                "12",
+                "doze",
+                "13",
+                "treze",
+                "14",
+                "catorze",
+                "15",
+                "quinze",
+                "16",
+                "dezesseis",
+                "17",
+                "dezessete",
+                "18",
+                "dezoito",
+                "19",
+                "dezenove",
+                "20",
+                "vinte",
+                "21",
+                "vinte e um",
+                "22",
+                "vinte e dois",
+                "23",
+                "vinte e três",
+                "24",
+                "vinte e quatro",
+                "25",
+                "vinte e cinco",
+                "26",
+                "vinte e seis",
+                "27",
+                "vinte e sete",
+                "28",
+                "vinte e oito",
+                "29",
+                "vinte e nove",
+                "30",
+                "trinta",
+                "31",
+                "trinta e um",
+                "último dia do mês"
+            ],
+            "responses": [
+                "Ok, você quer agendar para este dia!"
+            ]
+        },
+        {
+            "tag": "setHour",
+            "patterns": [
+                "0",
+                "00",
+                "0:00",
+                "meia-noite",
+                "1",
+                "01",
+                "1:00",
+                "uma hora",
+                "2",
+                "02",
+                "2:00",
+                "duas horas",
+                "3",
+                "03",
+                "3:00",
+                "três horas",
+                "4",
+                "04",
+                "4:00",
+                "quatro horas",
+                "5",
+                "05",
+                "5:00",
+                "cinco horas",
+                "6",
+                "06",
+                "6:00",
+                "seis horas",
+                "7",
+                "07",
+                "7:00",
+                "sete horas",
+                "8",
+                "08",
+                "8:00",
+                "oito horas",
+                "9",
+                "09",
+                "9:00",
+                "nove horas",
+                "10",
+                "10:00",
+                "dez horas",
+                "11",
+                "11:00",
+                "onze horas",
+                "12",
+                "12:00",
+                "meio-dia",
+                "13",
+                "13:00",
+                "treze horas",
+                "14",
+                "14:00",
+                "catorze horas",
+                "15",
+                "15:00",
+                "quinze horas",
+                "16",
+                "16:00",
+                "dezesseis horas",
+                "17",
+                "17:00",
+                "dezessete horas",
+                "18",
+                "18:00",
+                "dezoito horas",
+                "19",
+                "19:00",
+                "dezenove horas",
+                "20",
+                "20:00",
+                "vinte horas",
+                "21",
+                "21:00",
+                "vinte e uma horas",
+                "22",
+                "22:00",
+                "vinte e duas horas",
+                "23",
+                "23:00",
+                "vinte e três horas",
+                "24",
+                "24:00",
+                "meia-noite"
+            ],
+            "responses": [
+                "Ok, você quer agendar para as 17:00 horas!"
+            ]
+        },
+        {
+            "tag": "setProcedure",
+            "patterns": [
+                "corte de cabelo masculino",
+                "corte masculino",
+                "corte de cabelo feminino",
+                "corte feminino",
+                "barba tradicional",
+                "barba completa",
+                "barba com contorno",
+                "corte e barba",
+                "coloração de cabelo",
+                "mechas",
+                "luzes",
+                "hidratação capilar",
+                "escova progressiva",
+                "escova definitiva",
+                "alisamento de cabelo",
+                "design de sobrancelhas",
+                "depilação facial",
+                "depilação corporal",
+                "manicure",
+                "pedicure",
+                "unhas de gel",
+                "unhas acrílicas",
+                "spa para pés",
+                "tratamento capilar antiqueda",
+                "massagem",
+                "corte e barba combo",
+                "coloração e mechas",
+                "tratamento facial",
+                "penteado para eventos"
+            ],
+            "responses": [
+                "Certo, quer cortar o cabelo"
+            ]
+        },
+        {
+            "tag": "questions-cutMale",
+            "patterns": [
+                "Quanto custa um corte de cabelo masculino?",
+                "Quanto custa o corte de cabelo para homens?",
+                "Qual é o preço do corte de cabelo masculino?",
+                "Quais são os valores para cortar o cabelo dos homens?",
+                "Quanto eu pagaria por um corte de cabelo de homem?",
+                "Corte masculino preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês fazem coloração de cabelo?",
+                "Oferecem serviços de coloração capilar?",
+                "Fazem pintura de cabelo?",
+                "Qual é o preço para tingir o cabelo?",
+                "Vocês têm serviço de coloração capilar?",
+                "Coloração de cabelo está disponível?"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês fazem coloração de cabelo?",
+                "Oferecem serviços de coloração capilar?",
+                "Fazem pintura de cabelo?",
+                "Qual é o preço para tingir o cabelo?",
+                "Vocês têm serviço de coloração capilar?",
+                "Coloração de cabelo está disponível?"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Qual é o preço de um corte feminino?",
+                "Quanto custa o corte de cabelo para mulheres?",
+                "Quanto eu pagaria por um corte de cabelo feminino?",
+                "Corte de cabelo feminino preço",
+                "Vocês fazem cortes de cabelo para mulheres?",
+                "Fazem penteados femininos?"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Oferecem serviços de barbearia?",
+                "Vocês fazem cortes de barba?",
+                "Barbearia disponível?",
+                "Quais são os serviços de barba oferecidos?",
+                "Há cortes de barba no salão?",
+                "Fazem barba tradicional?"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês têm pacotes para corte e barba?",
+                "Quais são os pacotes de corte e barba?",
+                "Oferecem descontos em combo de corte e barba?",
+                "Como funciona o pacote de corte e barba?",
+                "Há ofertas para corte e barba combinados?",
+                "Qual é o preço do combo de corte e barba?"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Como agendar um horário para corte e coloração?",
+                "Qual é o processo para agendar corte e coloração?",
+                "Posso marcar um horário para corte e cor?",
+                "Agendamento de corte e coloração",
+                "Quais são as opções para agendar corte e coloração?",
+                "Horários disponíveis para corte e coloração"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Qual é o preço da depilação facial?",
+                "Quanto custa a depilação do rosto?",
+                "Há depilação facial disponível?",
+                "Quais são os preços para depilação facial?",
+                "Vocês fazem depilação de sobrancelhas?",
+                "Depilação facial preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês fazem unhas de gel?",
+                "Oferecem serviços de unhas de gel?",
+                "Unhas de gel estão disponíveis?",
+                "Quais são os preços para unhas de gel?",
+                "Há opções de design para unhas de gel?",
+                "Unhas de gel preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Oferecem pacotes para noivas?",
+                "Quais são os pacotes para noivas?",
+                "Pacotes especiais para noivas disponíveis?",
+                "Como funciona o pacote para noivas?",
+                "Quais são os serviços inclusos nos pacotes para noivas?",
+                "Pacotes de beleza para noivas"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Qual é o preço da escova progressiva?",
+                "Quanto custa a escova progressiva?",
+                "Há opções de escova progressiva disponíveis?",
+                "Quais são os preços para escova progressiva?",
+                "Como funciona o procedimento de escova progressiva?",
+                "Escova progressiva preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Há descontos para pacotes de tratamento capilar?",
+                "Quais são os descontos para tratamentos capilares?",
+                "Existem ofertas para pacotes de tratamento capilar?",
+                "Como funciona o programa de descontos para tratamento capilar?",
+                "Descontos em tratamentos capilares",
+                "Tratamento capilar desconto"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Quanto custa uma sessão de massagem?",
+                "Qual é o preço para uma sessão de massagem?",
+                "Vocês oferecem serviços de massagem?",
+                "Quais são os tipos de massagem disponíveis?",
+                "Como agendar uma sessão de massagem?",
+                "Preço de uma sessão de massagem"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês trabalham com design de sobrancelhas?",
+                "Oferecem serviços de design de sobrancelhas?",
+                "Fazem design de sobrancelhas?",
+                "Quais são os preços para design de sobrancelhas?",
+                "Como funciona o procedimento de design de sobrancelhas?",
+                "Design de sobrancelhas preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Qual é o preço da manicure e pedicure?",
+                "Quanto custa a manicure e pedicure?",
+                "Oferecem serviços de manicure e pedicure?",
+                "Quais são os preços para manicure e pedicure?",
+                "Como agendar uma sessão de manicure e pedicure?",
+                "Manicure e pedicure preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Oferecem serviços de spa para pés?",
+                "Vocês fazem tratamentos de spa para os pés?",
+                "Há opções de spa para pés disponíveis?",
+                "Quais são os preços para tratamentos de spa para pés?",
+                "Como agendar um tratamento de spa para pés?",
+                "Spa para pés preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês fazem alisamento de cabelo?",
+                "Oferecem serviços de alisamento capilar?",
+                "Fazem procedimentos de alisamento?",
+                "Quais são os preços para alisamento capilar?",
+                "Como funciona o procedimento de alisamento de cabelo?",
+                "Alisamento capilar preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Como posso agendar um horário para corte infantil?",
+                "Qual é o processo para agendar corte de cabelo infantil?",
+                "Posso marcar um horário para corte de cabelo para crianças?",
+                "Agendamento de corte infantil",
+                "Quais são os horários disponíveis para corte de cabelo de criança?",
+                "Corte de cabelo infantil agendamento"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Qual é a política de cancelamento de agendamentos?",
+                "Quais são as regras para cancelamento de horários?",
+                "Como posso cancelar um agendamento?",
+                "Política de cancelamento de serviços",
+                "Existem taxas para cancelamento de serviços?",
+                "Regras para cancelar um agendamento"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Oferecem serviços para eventos especiais?",
+                "Vocês têm pacotes para eventos especiais?",
+                "Fazem penteados para ocasiões especiais?",
+                "Quais são os serviços disponíveis para eventos?",
+                "Como agendar serviços para eventos especiais?",
+                "Pacotes para eventos especiais"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês trabalham com produtos orgânicos?",
+                "Oferecem opções de produtos naturais?",
+                "Utilizam produtos orgânicos nos procedimentos?",
+                "Quais são as opções de produtos sustentáveis?",
+                "Produtos naturais disponíveis?",
+                "Sustentabilidade e produtos orgânicos"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Como funciona o procedimento de luzes no cabelo?",
+                "Quais são os passos para o procedimento de luzes?",
+                "Posso escolher diferentes tons para luzes no cabelo?",
+                "Procedimento de coloração com luzes",
+                "Quais são as opções de luzes disponíveis?",
+                "Luzes no cabelo processo"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês têm um programa de fidelidade?",
+                "Oferecem benefícios para clientes frequentes?",
+                "Existe um programa de pontos para clientes?",
+                "Quais são as vantagens do programa de fidelidade?",
+                "Como participar do programa de pontos?",
+                "Programa de fidelidade e benefícios"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Quais são os métodos de pagamento aceitos?",
+                "Aceitam cartões de crédito?",
+                "Posso pagar em dinheiro?",
+                "Quais formas de pagamento são aceitas?",
+                "Métodos de pagamento disponíveis",
+                "Aceitam pagamento com cartão de débito?"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Vocês fazem penteados para festas?",
+                "Oferecem serviços de penteados para eventos?",
+                "Fazem penteados para ocasiões especiais?",
+                "Quais são as opções de penteados disponíveis?",
+                "Como agendar um serviço de penteado?",
+                "Penteados para festas e eventos"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Oferecem serviços de depilação masculina?",
+                "Vocês fazem depilação para homens?",
+                "Há opções de depilação para o público masculino?",
+                "Quais são os preços para depilação masculina?",
+                "Depilação masculina disponível?",
+                "Depilação para homens preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "Qual é o preço de uma sessão de hidratação capilar?",
+                "Quanto custa uma sessão de tratamento capilar?",
+                "Há opções de hidratação capilar disponíveis?",
+                "Quais são os preços para tratamento capilar?",
+                "Como agendar uma sessão de hidratação capilar?",
+                "Hidratação capilar preço"
+            ],
+            "responses": [
+                "responseQuestion"
+            ]
+        },
+        {
+            "tag": "goodbye",
             "patterns": [
                 "Tchau",
                 "Até logo",
@@ -218,7 +644,7 @@
             ]
         },
         {
-            "tag": "agradecimento",
+            "tag": "thanks",
             "patterns": [
                 "Obrigado",
                 "Obrigado",
@@ -230,74 +656,6 @@
                 "A qualquer momento!",
                 "É um prazer",
                 "Você é muito bem-vindo!"
-            ]
-        },
-        {
-            "tag": "sobre",
-            "patterns": [
-                "Quem é você?",
-                "O que é você?",
-                "Quem é você?"
-            ],
-            "responses": [
-                "Eu sou Joana, sua assistente virtual",
-                "Eu sou Joana, um bot de inteligência artificial"
-            ]
-        },
-        {
-            "tag": "nome",
-            "patterns": [
-                "Qual é o seu nome",
-                "Como devo te chamar",
-                "Qual é o seu nome?"
-            ],
-            "responses": [
-                "Você pode me chamar de Joana",
-                "Eu sou a Joana!",
-                "Apenas me chame de Joana"
-            ]
-        },
-        {
-            "tag": "ajuda",
-            "patterns": [
-                "Você poderia me ajudar?",
-                "Me dê uma mão, por favor",
-                "Você pode ajudar?",
-                "O que você pode fazer por mim?",
-                "Preciso de suporte",
-                "Preciso de ajuda",
-                "Me apoie, por favor"
-            ],
-            "responses": [
-                "Me diga como posso ajudar você",
-                "Me conte o seu problema para que eu possa te ajudar",
-                "Claro, como posso te apoiar"
-            ]
-        },
-        {
-            "tag": "criarconta",
-            "patterns": [
-                "Preciso criar uma nova conta",
-                "Como abrir uma nova conta",
-                "Quero criar uma conta",
-                "Você pode criar uma conta para mim",
-                "Como abrir uma nova conta"
-            ],
-            "responses": [
-                "Você pode facilmente criar uma nova conta em nosso site",
-                "Basta ir ao nosso site e seguir as orientações para criar uma nova conta"
-            ]
-        },
-        {
-            "tag": "reclamação",
-            "patterns": [
-                "Tenho uma reclamação",
-                "Quero fazer uma reclamação",
-                "Há uma reclamação sobre um serviço"
-            ],
-            "responses": [
-                "Por favor, forneça sua reclamação para que possamos ajudar você",
-                "Por favor, mencione sua reclamação, entraremos em contato com você e pedimos desculpas por qualquer inconveniência causada"
             ]
         }
     ]

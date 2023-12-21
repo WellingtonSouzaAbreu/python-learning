@@ -3,6 +3,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+import subprocess
 
 
 def main():
@@ -26,5 +27,4 @@ def main():
     plt.grid(True)
     plt.show()
 
-
-main()
+# main()

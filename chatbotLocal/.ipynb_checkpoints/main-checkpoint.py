@@ -1,6 +1,6 @@
 import json
-import tensorflow as tf
 import numpy as np
+import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Embedding, GlobalAveragePooling1D
@@ -97,7 +97,7 @@ def main():
     # model.summary()
 
     # Quantidades de treinamento, ajustando seus pesos para fazer previsões mais precisas.
-    epocs = 500
+    epocs = 20
 
     # print(paddedSequences) # [[ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 10 31 18]]
     # print(trainingLabels) # [1 2 3]
