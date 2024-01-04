@@ -26,7 +26,7 @@ def main():
     keywords_only = [word for phrase in keyword_extracted for word in phrase.split()]
     stringWords = ' '.join(map(str, keywords_only))
 
-    tags, originalText = extractTags(stringWords)
+    tags = extractTags(stringWords)
     cleanTags = remoteRepetedWords(tags)
 
     print(text)
@@ -49,7 +49,7 @@ def extractTags(text):
                 if word not in stopwords.words('portuguese'):
                     tags.append(word)
 
-    return tags, text
+    return tags
 
 def remoteRepetedWords(lista):
     conjunto_sem_repeticao = set(lista)
