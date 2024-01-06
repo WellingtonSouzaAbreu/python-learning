@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key='apiKey')
+client = OpenAI(api_key='')
 
 import requests
 
@@ -8,8 +8,10 @@ def main():
     # TODO: The 'openai.organization' option isn't read in the client API. You will need to pass it when you instantiate the client, e.g. 'openai(organization='org-84XXMSdppS6DlmdhjWtcgKiJ')'
     # openai.organization = 'org-84XXMSdppS6DlmdhjWtcgKiJ'
 
-    system_message = f"""answer in capital letters"""
-    user_message = f"""say hello word in upper case"""
+    textInput = input("Enter your message: ")
+
+    system_message = f"""The maximum characters in the response must be 15"""
+    user_message = f"""{textInput}"""
     messages = [  
         {'role':'system', 'content': system_message},    
         {'role':'user', 'content': user_message},  
@@ -21,31 +23,8 @@ def main():
         max_tokens=15
     )
 
+    print(response.usage.total_tokens)
     print(response.choices[0].message.content)
     
 
-
-
 main()
-
-""" def main():
-    # : The 'openai.organization' option isn't read in the client API. You will need to pass it when you instantiate the client, e.g. 'openai(organization='org-84XXMSdppS6DlmdhjWtcgKiJ')'
-    # openai.organization = 'org-84XXMSdppS6DlmdhjWtcgKiJ'
-    client.models.list()
-    print('running...')
-    url = "https://api.openai.com/v1/chat/completions"
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer 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"
-    }
-
-    data = {
-        "model": "gpt-3.5-turbo",
-        "messages": [{"role": "user", "content": "Say hello world!"}],
-        "temperature": 0.7,
-        "max_tokens":10
-    }
-
-    response = requests.post(url, headers=headers, json=data)
-
-    print(response.json()) """
